@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3 uid="uid://dnsp7fuo3at0r"]
+
+[ext_resource type="Texture2D" uid="uid://cmvtkom35bbck" path="res://pixel-art/frog-tongue-transparent.png" id="1_tnb6x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ej0dk"]
+atlas = ExtResource("1_tnb6x")
+region = Rect2(0, 0, 16, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gb6oi"]
+atlas = ExtResource("1_tnb6x")
+region = Rect2(16, 0, 16, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m748p"]
+atlas = ExtResource("1_tnb6x")
+region = Rect2(32, 0, 16, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nwoty"]
+atlas = ExtResource("1_tnb6x")
+region = Rect2(48, 0, 16, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2spwk"]
+atlas = ExtResource("1_tnb6x")
+region = Rect2(64, 0, 16, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ej0dk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gb6oi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m748p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nwoty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2spwk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

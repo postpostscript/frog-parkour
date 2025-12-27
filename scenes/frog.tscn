@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://n73u4k0q0dx3"]
+
+[ext_resource type="SpriteFrames" uid="uid://cycf3w26x283e" path="res://assets/frog-spriteframe-extended.tres" id="1_qyo2l"]
+[ext_resource type="Script" uid="uid://b6c3mdrv0261h" path="res://scripts/frog.gd" id="2_rq8tc"]
+[ext_resource type="AudioStream" uid="uid://b0mltn5yg3i3b" path="res://sounds/aboinga.wav" id="3_rq8tc"]
+[ext_resource type="AudioStream" uid="uid://d1skkuvqcodu5" path="res://sounds/aooaooaoowwwwwwwwww.wav" id="4_1g2vb"]
+
+[node name="Frog" type="AnimatedSprite2D"]
+scale = Vector2(4, 4)
+sprite_frames = ExtResource("1_qyo2l")
+offset = Vector2(0, -32)
+script = ExtResource("2_rq8tc")
+
+[node name="aboinga!" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_rq8tc")
+volume_db = -29.838
+pitch_scale = 1.28
+
+[node name="aowooaawww" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_1g2vb")
+volume_db = -29.838
+pitch_scale = 1.28
